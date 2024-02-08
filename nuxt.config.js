@@ -3,15 +3,15 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - nuxt-typescript-vuetify-template',
-    title: 'nuxt-typescript-vuetify-template',
+    titleTemplate: '%s - ペルソナスキルチェック',
+    title: 'ペルソナスキルチェック',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
       // iPhoneでモバイルアプリのように表示する
-      // { name: "apple-mobile-web-app-capable", content: "yes" }
+      { name: "apple-mobile-web-app-capable", content: "yes" }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -87,7 +87,7 @@ export default {
 
   // GithubPagesで公開する設定
   router: {
-    base: '/memo-tutorial/'
+    base: '/persona_party/'
   },
   generate: {
     dir: 'docs'
