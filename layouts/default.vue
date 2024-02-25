@@ -43,8 +43,13 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Memo',
+          title: '3_check',
           to: '/',
+        },
+        {
+          icon: 'mdi-apps',
+          title: '5_check',
+          to: '/index5',
         },
         {
           icon: 'mdi-chart-bubble',
